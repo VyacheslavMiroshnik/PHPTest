@@ -1,5 +1,19 @@
 {
-  "require": {
-    "": "<default>"
-  }
+    "name": "vyacheslav/phpadv5",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vyacheslav\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vyacheslav Miroshnik",
+            "email": "mepa087@gmail.com"
+        }
+    ],
+    "require": {}
 }
