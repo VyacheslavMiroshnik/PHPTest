@@ -8,16 +8,13 @@
   <php>
     <env name="APP_ENV" value="testing"/>
   </php>
-  <coverage includeUncoveredFiles="true">
+  <source>
     <include>
-      <directory>src/Classes</directory>
+      <directory suffix=".php">src/Classes</directory>
     </include>
     <exclude>
+      <directory>vendor</directory>
       <directory>tests</directory>
     </exclude>
-    <exclude>
-      <directory>vendor</directory>
-    </exclude>
-
-  </coverage>
+  </source>
 </phpunit>
