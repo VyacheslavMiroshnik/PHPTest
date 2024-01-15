@@ -2,7 +2,7 @@
 
 namespace Vyacheslav\Classes;
 
-class User extends UserTableWrapper
+class User
 {
     public UserTableWrapper $db;
 

@@ -1,12 +1,16 @@
 {
     "name": "vyacheslav/phpadv5",
     "type": "project",
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    },
     "require-dev": {
         "phpunit/phpunit": "^10.5"
     },
     "autoload": {
         "psr-4": {
-            "Vyacheslav\\": "src/"
+            "Vyacheslav\\": "src/",
+            "unit\\":"tests/unit"
         }
     },
     "authors": [
